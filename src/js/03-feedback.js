@@ -35,6 +35,9 @@ function dataFromLocalStorage() {
         email.value = data.email || '';
         message.value = data.message || '';
         console.log(data);
+
+        formData.email = data.email || '';
+        formData.message = data.message || '';
     }
     return;
 };
